@@ -1,26 +1,89 @@
 {
   "layout": "magazine",
-  "emoji": "📦",
-  "title": "Project Title",
-  "tagline": "A short description of what this project does and why it exists.",
-  "tags": [ "Technology", "Framework","Database","Category" ],
+  "emoji": "🎲",
+  "title": "Lottery Simulation",
+  "tagline": "A Windows desktop application that simulates lottery drawings, validates user-selected numbers, and analyzes winning probabilities through large-scale random simulations.",
+  "tags": [
+    "C#",
+    ".NET Framework",
+    "Windows Forms",
+    "Simulation",
+    "Algorithms"
+  ],
   "demo": "https://www.w3schools.com/html/mov_bbb.mp4",
   "screenshots": [
-    { "src": "./docs/screenshot-1.jpg","label": "Screenshot One" },
-    { "src": "./docs/screenshot-2.jpg","label": "Screenshot Two" },
-    { "src": "./docs/screenshot-3.jpg","label": "Screenshot Three" }
+    {
+      "src": "./docs/start-screen.jpg",
+      "label": "Lottery Number Selection"
+    },
+    {
+      "src": "./docs/validation.jpg",
+      "label": "Input Validation"
+    },
+    {
+      "src": "./docs/configure-simulation.jpg",
+      "label": "Simulation Configuration"
+    },
+    {
+      "src": "./docs/running-simulation.jpg",
+      "label": "Simulation in Progress"
+    },
+    {
+      "src": "./docs/results.jpg",
+      "label": "Simulation Results"
+    },
+    {
+      "src": "./docs/five-correct.jpg",
+      "label": "Five Correct Numbers"
+    },
+    {
+      "src": "./docs/six-correct.jpg",
+      "label": "Six Correct Numbers"
+    },
+    {
+      "src": "./docs/seven-correct.jpg",
+      "label": "Jackpot Simulation"
+    }
   ],
   "features": [
-    { "title": "Feature One", "desc": "Description of the first feature." },
-    { "title": "Feature Two","desc": "Description of the second feature." },
-    { "title": "Feature Three","desc": "Description of the third feature." },
-    { "title": "Feature Four","desc": "Description of the fourth feature." }
+    {
+      "title": "Lottery Draw Simulation",
+      "desc": "Generates large numbers of random lottery draws and compares them against a user-selected ticket to calculate winning outcomes."
+    },
+    {
+      "title": "Robust Input Validation",
+      "desc": "Ensures all selected lottery numbers are unique integers within the valid range before allowing simulations to begin."
+    },
+    {
+      "title": "Performance-Oriented Design",
+      "desc": "Efficiently processes hundreds of thousands to nearly one million simulated lottery draws while maintaining responsive performance."
+    },
+    {
+      "title": "Probability Analysis",
+      "desc": "Separately tracks and reports the number of simulations resulting in exactly five, six, or seven matching numbers."
+    }
   ],
-  "context": "Provide background information about the project, the problem it solves, or the goals behind its development.",
+  "context": "Lottery Simulation is a Windows Forms desktop application built to explore probability through Monte Carlo-style simulations. Users choose their lottery numbers, configure the number of simulated draws, and analyze how frequently different winning outcomes occur. The project combines efficient random number generation, input validation, algorithmic problem solving, and desktop application development to create an interactive statistical simulation.",
   "tech": [
-    { "name": "Technology One","role": "Purpose or responsibility" },
-    { "name": "Technology Two","role": "Purpose or responsibility" },
-    { "name": "Technology Three","role": "Purpose or responsibility" },
-    { "name": "Technology Four","role": "Purpose or responsibility" }
+    {
+      "name": "C#",
+      "role": "Implements the simulation engine, validation logic, and application behavior."
+    },
+    {
+      "name": ".NET Framework",
+      "role": "Provides the runtime environment and core libraries."
+    },
+    {
+      "name": "Windows Forms",
+      "role": "Builds the desktop user interface and handles user interactions."
+    },
+    {
+      "name": "Random Number Generation",
+      "role": "Creates randomized lottery draws for large-scale probability simulations."
+    },
+    {
+      "name": "Collections",
+      "role": "Stores and compares lottery numbers efficiently during simulations."
+    }
   ]
 }
