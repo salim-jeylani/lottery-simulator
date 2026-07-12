@@ -13,36 +13,20 @@
   "demo": "https://www.w3schools.com/html/mov_bbb.mp4",
   "screenshots": [
     {
-      "src": "./docs/start-screen.jpg",
-      "label": "Lottery Number Selection"
+      "src": "./docs/launch.png",
+      "label": "First impression of the program."
     },
     {
-      "src": "./docs/validation.jpg",
-      "label": "Input Validation"
+      "src": "./docs/parts.png",
+      "label": "Main parts of the program"
     },
     {
-      "src": "./docs/configure-simulation.jpg",
-      "label": "Simulation Configuration"
+      "src": "./docs/error.png",
+      "label": "No duplicates allowed"
     },
     {
-      "src": "./docs/running-simulation.jpg",
-      "label": "Simulation in Progress"
-    },
-    {
-      "src": "./docs/results.jpg",
-      "label": "Simulation Results"
-    },
-    {
-      "src": "./docs/five-correct.jpg",
-      "label": "Five Correct Numbers"
-    },
-    {
-      "src": "./docs/six-correct.jpg",
-      "label": "Six Correct Numbers"
-    },
-    {
-      "src": "./docs/seven-correct.jpg",
-      "label": "Jackpot Simulation"
+      "src": "./docs/win.png",
+      "label": "Jackpot example of hitting 7 correct rows."
     }
   ],
   "features": [
